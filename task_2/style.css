@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 70%;
+    background-color: #e9e3e3;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.color__wrap {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.color__item {
+    width: 70px;
+    height: 35px;
+    background-color: rgb(143, 148, 224);
+}
+
+button {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 2px 1px rgba(73, 73, 73, 0.26);
+}

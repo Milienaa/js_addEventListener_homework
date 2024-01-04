@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article>
+        <h1>Article Title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aperiam expedita odio adipisci deserunt, dicta maxime labore quasi, neque cupiditate exercitationem consectetur ducimus iure asperiores ipsam ullam, porro accusamus officia!</p>
+    </article>
+
+    <div class="comments" id="comments">
+        <h2>Comments</h2>
+        <ul id="comments__list">
+        </ul>
+
+        <form id="comment__form">
+            <label for="username">Name:</label>
+            <input type="text" id="username" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" required></textarea>
+
+            <button type="button" id="add__comment__btn">Add Comment</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        new CommentSection('#comments__list', '#username', '#comment', '#add__comment__btn').init();
+    </script>
+</body>
+</html>
